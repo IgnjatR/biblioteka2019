@@ -47,4 +47,16 @@ public class Biblioteka implements BibliotekaInterface {
 		return rezultati;
 	}
 
+	@Override
+	public void sacuvajUJSONFajl(String putanja) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void ucitajKnjigeIzJSON(String putanja) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

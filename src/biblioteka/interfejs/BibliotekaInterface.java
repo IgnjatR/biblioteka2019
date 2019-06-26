@@ -16,4 +16,6 @@ public interface BibliotekaInterface {
 	public List<Knjiga> pronadjiKnjigu(Autor autor, String isbn, 
 			String naslov, String izdavac);
 	
+	public void sacuvajUJSONFajl(String putanja);
+	public void ucitajKnjigeIzJSON(String putanja);
 }
